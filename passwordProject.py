@@ -7,6 +7,7 @@ letters = ['A','B','C','D','E','F','G',
                'O','P','Q','R','S','T','U','V',
                'W','X','Y','Z']
 userWords = []
+
 n = 0
 while n < 26:
     print('Enter words that start with the letter:' + letters[n])
