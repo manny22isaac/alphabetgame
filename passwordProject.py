@@ -1,3 +1,5 @@
+#! python3 
+# Prints letter of the alphabet
 import time
 
 letters = ['A','B','C','D','E','F','G',
