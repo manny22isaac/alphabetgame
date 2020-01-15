@@ -1,4 +1,6 @@
 from pytictoc import TicToc
+import time, threading, random
+from spellchecker import SpellChecker
 
 
 t = TicToc() #create instance of class
@@ -29,9 +31,11 @@ while n < 26:
 #Results
 print('Of the %s amount of words:' % len(userWords))
 
-for name in userWords:
-    print('  ' + name)
-
-
 userDictionary = dict(zip(letters, userWords))
 print(userDictionary)
+
+spell = SpellChecker()
+misspelled = spell.unknown(userWords)
+
+print('you misspelled %s words' % len(misspelled))
+userWords.pop()
