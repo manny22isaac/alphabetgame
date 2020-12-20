@@ -8,3 +8,4 @@ Further updates will include:
   (This has currently been added.) 
 - More than one round.
 - Results that seperate words that are incorrectly spelled or are made up, and display the results clearly.
+- Will make a Web Application so users can play it.
